@@ -31,12 +31,12 @@ public class EmployeeService {
         return employeeRepo.save(employee);
     }
 
-    public Employee findEmployee(Long id) {
+    public Employee findEmployeeById(Long id) {
         return employeeRepo.findEmployeeById(id)
                 .orElseThrow(() -> new EmployeeNotFoundException("No employee with id: " + id));
     }
 
-    public void deleteEmployee(Long id) {
+    public void deleteEmployeeById(Long id) {
         employeeRepo.deleteEmployeeById(id);
     }
 }
