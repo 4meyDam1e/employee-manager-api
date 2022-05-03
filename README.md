@@ -1,7 +1,11 @@
-# Employee-Manage
+# Employee Manager API
 
-## Overview:
-### A fullstack application that allows users to create, delete and find employees.
+### Overview:
+The REST API (backend) for the Employee Manager App (see https://github.com/4meyDam1e/employee-manager-app).
 
-## Backend:
-Java, Spring Boot, Maven, MySQL.
+### Technologies Used:
+- Java
+- Spring Boot
+- Maven
+- MySQL (local) and PostgreSQL (prod)
+- Postman (for testing)
