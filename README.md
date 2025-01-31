@@ -1,16 +1,12 @@
-# Employee Manager API
+# Employee Manager API 🚀
 
-### Overview:
-The REST API (backend) for the Employee Manager App (see https://github.com/4meyDam1e/employee-manager-app).
+## Description
+API for [Employee Manager](https://github.com/4meyDam1e/employee-manager), a full-stack CRUD application for managing employees.
 
-### Technologies Used:
-- Java
-- Spring Boot
-- Maven
-- MySQL (local) and PostgreSQL (prod)
-- Postman (for testing)
-- Heroku (for deploying, see https://spring-employee-manager-api.herokuapp.com/)
+## Features
+- Create, edit and delete employees
+- Search for employees
 
-### Tutorials:
-- Development - https://www.youtube.com/watch?v=Gx4iBLKLVHk
-- Deployment - https://www.youtube.com/watch?v=y_idn12FB18&t=44s&ab_channel=ProgrammingTechie
+## Tech Stack (backend) 🛠️
+- Spring Boot/Java
+- MySQL (local), PostgreSQL (prod, no longer hosted)
